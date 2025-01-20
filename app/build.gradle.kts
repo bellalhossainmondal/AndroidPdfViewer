@@ -34,7 +34,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.bellalhossainmondal"
             artifactId = "android-pdfviewer"
-            version = "1.0.0"
+            version = "1.1.0"
 
             pom {
                 name.set("Android Pdf Viewer")
