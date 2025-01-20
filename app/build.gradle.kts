@@ -8,8 +8,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        minSdk = 24
-        targetSdk = 35
+        minSdk = 19
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -34,7 +33,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.bellalhossainmondal"
             artifactId = "android-pdfviewer"
-            version = "1.1.0"
+            version = "1.3.0"
 
             pom {
                 name.set("Android Pdf Viewer")
